@@ -105,3 +105,4 @@ ValueError: invalid literal for int() with base 10: 'LLL'
 2019-12-17 14:20:30,094 INFO: Microblog startup [in C:\Users\duvolle\Desktop\microblog\app\__init__.py:49]
 2019-12-17 14:23:15,751 INFO: Microblog startup [in C:\Users\duvolle\Desktop\microblog\app\__init__.py:49]
 2019-12-17 14:23:31,920 INFO: Microblog startup [in C:\Users\duvolle\Desktop\microblog\app\__init__.py:49]
+2019-12-18 12:32:58,296 INFO: Microblog startup [in C:\Users\duvolle\Desktop\microblog\app\__init__.py:49]
