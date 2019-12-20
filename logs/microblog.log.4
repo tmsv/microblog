@@ -1,4 +1,4 @@
-2019-12-20 11:47:44,653 ERROR: Exception on /explore [GET] [in c:\users\duvolle\downloads\opendatascience\ods\lib\site-packages\flask\app.py:1891]
+2019-12-20 11:47:28,962 ERROR: Exception on /index [GET] [in c:\users\duvolle\downloads\opendatascience\ods\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "c:\users\duvolle\downloads\opendatascience\ods\lib\site-packages\flask\app.py", line 2446, in wsgi_app
     response = self.full_dispatch_request()
@@ -14,8 +14,8 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "c:\users\duvolle\downloads\opendatascience\ods\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
     return func(*args, **kwargs)
-  File "C:\Users\duvolle\Desktop\microblog\app\routes.py", line 51, in explore
-    next_url=next_url, prev_url=prev_url)
+  File "C:\Users\duvolle\Desktop\microblog\app\routes.py", line 38, in index
+    prev_url=prev_url)
   File "c:\users\duvolle\downloads\opendatascience\ods\lib\site-packages\flask\templating.py", line 138, in render_template
     ctx.app.jinja_env.get_or_select_template(template_name_or_list),
   File "c:\users\duvolle\downloads\opendatascience\ods\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
