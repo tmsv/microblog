@@ -24,4 +24,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # Ignore logs folder
-logs
+#logs
