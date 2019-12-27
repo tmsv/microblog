@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-21 12:03+0300\n"
+"POT-Creation-Date: 2019-12-27 11:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,16 +181,16 @@ msgstr ""
 msgid "Logout"
 msgstr ""
 
-#: app/templates/index.html:6
+#: app/templates/index.html:5
 #, python-format
 msgid "Hi, %(username)s!"
 msgstr ""
 
-#: app/templates/index.html:19 app/templates/user.html:37
+#: app/templates/index.html:17 app/templates/user.html:30
 msgid "Newer posts"
 msgstr ""
 
-#: app/templates/index.html:25 app/templates/user.html:43
+#: app/templates/index.html:22 app/templates/user.html:35
 msgid "Older posts"
 msgstr ""
 
@@ -214,33 +214,33 @@ msgstr ""
 msgid "Reset Your Password"
 msgstr ""
 
-#: app/templates/user.html:8
+#: app/templates/user.html:7
 msgid "User"
 msgstr ""
 
-#: app/templates/user.html:12
+#: app/templates/user.html:10
 msgid "Last seen on"
 msgstr ""
 
-#: app/templates/user.html:15
+#: app/templates/user.html:12
 #, python-format
 msgid "%(count)d followers"
 msgstr ""
 
-#: app/templates/user.html:15
+#: app/templates/user.html:12
 #, python-format
 msgid "%(count)d following"
 msgstr ""
 
-#: app/templates/user.html:18
+#: app/templates/user.html:14
 msgid "Edit your profile"
 msgstr ""
 
-#: app/templates/user.html:21
+#: app/templates/user.html:16
 msgid "Follow"
 msgstr ""
 
-#: app/templates/user.html:24
+#: app/templates/user.html:18
 msgid "Unfollow"
 msgstr ""
 
