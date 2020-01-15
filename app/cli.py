@@ -9,4 +9,6 @@ def translate():
 
 @translate.command()
 @click.argument('lang')
-def init(lang)
+def init(lang):
+	"""Initialize a new language"""
+	if os.system('pybabel extract -F babel.cfg -k _l -o messages.pot .'):
