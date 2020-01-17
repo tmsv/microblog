@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 from flask import render_template, flash, redirect, url_for, request, g, \
     jsonify
@@ -191,4 +192,4 @@ def translate_text():
     return jsonify({'text': translate(request.form['text'],
                                         request.form['source_language'],
                                         request.form['dest_language'],
-                                        app.config['MS_TRANSLATOR_KEY'])})
+                                        os.environ['MS_TRANSLATOR_KEY'])})
