@@ -21,6 +21,7 @@ def before_request():
         db.session.commit()
     # ниже снять комментирование, если нужно, чтобы moment.js писал события на языке пользователя
     g.locale = str(get_locale())
+    print(g.locale)
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -33,6 +34,7 @@ def index():
             language = ''
         post = Post(body=form.post.data, author=current_user,
                     language=language)
+        print(language)
         db.session.add(post)
         db.session.commit()
         flash(_('Your post is now live!'))

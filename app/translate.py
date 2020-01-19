@@ -14,6 +14,8 @@ def translate(text, source_language, dest_language, auth):
         '/translate?text={}&lang={}-{}&key={}'.format(
             text, source_language, dest_language, auth))
 
+    print(text)
+
     if r.status_code != 200:
         return _('Error2: the translation service failed.')
     response = json.loads(r.content.decode('utf-8-sig'))
