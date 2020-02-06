@@ -1,14 +1,14 @@
 import os
 import json
 import requests
+from app import current_app
 from flask_babel import _
-from app import app
 
 # always be sure that you've set the API-key to the virtual environment
 # check it in console in python mode with importing os and then 'print(os.environ.get('YOUR_KEY'))' command
 def translate(text, source_language, dest_language, auth):
-    if 'MS_TRANSLATOR_KEY' not in app.config or \
-            not app.config['MS_TRANSLATOR_KEY']:
+    if 'MS_TRANSLATOR_KEY' not in current_app.config or \
+            not current_app.config['MS_TRANSLATOR_KEY']:
         return _('Error: the translation service is not configured.')
     r = requests.get('https://translate.yandex.net/api/v1.5/tr.json'
         '/translate?text={}&lang={}-{}&key={}'.format(

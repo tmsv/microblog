@@ -11,7 +11,7 @@ from app.models import User, Post
 from app.translate import translate
 from app.main import bp
 
-@app.before_request
+@bp.before_request
 def before_request():
     if current_user.is_authenticated:
         current_user.last_seen = datetime.utcnow()
