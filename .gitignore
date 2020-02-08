@@ -68,3 +68,4 @@ app.db
 microblog.log*
 .env
 .pot
+messages.pot
