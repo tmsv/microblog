@@ -67,3 +67,4 @@ venv
 app.db
 microblog.log*
 .env
+.pot
